@@ -3,8 +3,8 @@ import os
 import requests
 #moikaikille
 
-DISCORD_TOKEN = os.environ['MTQwMzA0MjMxNTY2NDM2Mzc2Mw.GFz1NY.EqnBQE0AwFS8uSaDdtPJzpSrL0Z-2Okpf0Gnic']
-TOGETHER_API_KEY = os.environ['64ea227142d38c6889f842e0e85654ba844ba4b216042634256ce60ae5ed74c2']
+DISCORD_TOKEN = os.environ['DISCORD_TOKEN']
+TOGETHER_API_KEY = os.environ['TOGETHER_API_KEY']
 
 client = discord.Client(intents=discord.Intents.all())
 
