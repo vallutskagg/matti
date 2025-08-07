@@ -1,1 +1,1 @@
-python matti.py
+worker: python matti.py
