@@ -29,7 +29,7 @@ async def on_message(message):
         return
     if message.content.startswith("!kysy "):
         kysymys = message.content[len("!kysy "):]
-        await message.channel.send("💭 Hetki...")
+        await message.channel.send("💭 Hetki pieni matti miettii...")
 
         vastaus = kysytekoalylta(kysymys)
         await message.channel.send(vastaus[:2000])
